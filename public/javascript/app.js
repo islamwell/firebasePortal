@@ -1,10 +1,10 @@
 // Replace with your publishable key
 // https://dashboard.stripe.com/apikeys
-const STRIPE_PUBLISHABLE_KEY = 'pk_test_NzVWw6MB7fN3HSeAvVnyf5tx00hTu3Ukrk';
+const STRIPE_PUBLISHABLE_KEY = 'pk_test_51IBKkVH8QGHZ40ehirJ0HOfAs5xRoeHsq8OJLY8DkhhPiRrp0DhpzpfaHC7awEWXlUW4t51h5G1gFe0EspHWjpTk00qAUXEmSt';
 
 // Replace with your tax ids
 // https://dashboard.stripe.com/tax-rates
-const taxRates = ['txr_1IJJtvHYgolSBA35ITTBOaew'];
+const taxRates = ['txr_1IQ7TlH8QGHZ40ehnsQhhGRS'];
 
 const prices = {};
 
@@ -20,7 +20,7 @@ const firebaseConfig = {
 };
 
 // Replace with your cloud functions location
-const functionLocation = 'us-east1';
+const functionLocation = 'us-central1';
 
 // Initialize Firebase
 const firebaseApp = firebase.initializeApp(firebaseConfig);
@@ -50,9 +50,9 @@ const firebaseUiConfig = {
   ],
   credentialHelper: firebaseui.auth.CredentialHelper.NONE,
   // Your terms of service url.
-  tosUrl: 'https://example.com/terms',
+  tosUrl: 'https://learn.mynurulquran.com/terms',
   // Your privacy policy url.
-  privacyPolicyUrl: 'https://example.com/privacy',
+  privacyPolicyUrl: 'https://learn.mynurulquran.com/privacy',
 };
 firebase.auth().onAuthStateChanged((firebaseUser) => {
   if (firebaseUser) {
