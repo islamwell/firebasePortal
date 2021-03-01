@@ -10,14 +10,16 @@ const prices = {};
 
 // Replace with your Firebase project config.
 const firebaseConfig = {
-  apiKey: 'AIzaSyAEGmffBNUsVrdVS_iyiI4eUMOWWp4Q5dI',
-  authDomain: 'stripe-subs-ext.firebaseapp.com',
-  databaseURL: 'https://stripe-subs-ext.firebaseio.com',
-  projectId: 'stripe-subs-ext',
-  storageBucket: 'stripe-subs-ext.appspot.com',
-  messagingSenderId: '955066520266',
-  appId: '1:955066520266:web:ec7135a76fea7a1bce9a33',
+     apiKey: "AIzaSyAhglU-aG2NBWCYFEDoNs5lv_yP4e5YXww",
+    authDomain: "stripeportal.firebaseapp.com",
+    projectId: "stripeportal",
+    storageBucket: "stripeportal.appspot.com",
+    messagingSenderId: "507532120873",
+    appId: "1:507532120873:web:85cd3eed50528e7cb59d38",
+    measurementId: "G-02HQ8W58TM",
 };
+
+
 
 // Replace with your cloud functions location
 const functionLocation = 'us-central1';
